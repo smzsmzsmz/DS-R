@@ -1,10 +1,10 @@
 # DS-R
 # Config Github to store user info
----
+```
 $ git config --global user.name "username in git url"
 $ git config --global user.email "emails"
 $ git config --global color.ui "auto"
----
+```
 
 # To view Git settings
 $ git config --list
