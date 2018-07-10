@@ -1,7 +1,7 @@
 # DS-R
 # Config Github to store user info
-$ git config --global user.name "NEON Science"
-$ git config --global user.email "neon@BattelleEcology.org"
+$ git config --global user.name "username in git url"
+$ git config --global user.email "emails"
 $ git config --global color.ui "auto"
 
 # To view Git settings
@@ -12,3 +12,10 @@ $ git add filename
 
 # To view the status of files
 $ git status
+
+# To commit file changes
+$ git commit -m "(committed message)" filename
+$ git commit -m "To save uselful info about git" README.md
+
+# To push changes
+$ git push -u origin master
